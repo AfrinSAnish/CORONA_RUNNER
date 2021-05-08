@@ -133,6 +133,7 @@ function draw() {
     bulletGrp.isTouching(arrowGrp)){
     bahuGrp.destroyEach();
     arrowGrp.destroyEach();
+    enemGrp.destroyEach();
   }
 
   if(man.isTouching(enemGrp)||man.isTouching(arrowGrp)||
